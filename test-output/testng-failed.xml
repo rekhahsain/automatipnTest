@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [AutomationTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="TC_searchProduct(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Com.testpractice.testCases.TC_searchProduct">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="SearchProductTest"/>
+        </methods>
+      </class> <!-- Com.testpractice.testCases.TC_searchProduct -->
+    </classes>
+  </test> <!-- TC_searchProduct(failed) -->
+</suite> <!-- Failed suite [AutomationTest] -->
